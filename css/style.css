@@ -11,10 +11,10 @@ body {
 }
 
 /* regole header */
- header {
+header {
     background-color: #ADD8E7;
     padding: 20px;
-} 
+}
 
 .nav-main {
     background-color: orange;
@@ -69,8 +69,8 @@ ul {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
+
+
 }
 
 .dim1 {
@@ -90,6 +90,7 @@ ul {
     background-color: #FFC0CA;
     width: 60%;
 }
+
 /* place to talk */
 .white-bkg {
     background-color: white;
@@ -145,13 +146,21 @@ ul {
     background-color: #20B3AA;
 }
 
+.water-green {
+    background-color: #7FFFD4;
+}
+
+.black {
+    background-color: #23272A;
+}
+
 /* fandom */
 .main-row-reverse {
     width: 60%;
     /* height: 300px; */
     margin: 0 auto;
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -166,7 +175,7 @@ ul {
     border: 1px solid black;
 }
 
-/* footer */
+/* sezione 1 footer */
 .black-bkg {
     background-color: #23272A;
     padding: 20px;
@@ -179,12 +188,11 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .dim4 {
-     display: flex;
+    display: flex;
     justify-content: center;
     height: 400px;
     width: 20%;
@@ -193,4 +201,28 @@ ul {
 
 .width-30 {
     width: 30%;
+}
+
+/* sezione 2 footer */
+hr {
+    color: white;
+}
+
+
+.end-footer {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.dim5 {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 98%;
+    border: 1px solid #fff;
 }

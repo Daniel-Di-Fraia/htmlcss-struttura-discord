@@ -30,6 +30,7 @@ body {
     justify-content: center;
     width: 80%;
     height: 30px;
+    border: 1px solid black;
 }
 
 ul {
@@ -77,6 +78,7 @@ ul {
     justify-content: center;
     width: 80%;
     height: 30px;
+    border: 1px solid black;
 }
 
 /* main principale */
@@ -114,7 +116,7 @@ ul {
     justify-content: center;
     height: 370px;
     width: 100%;
-    
+    border: 1px solid black;
 }
 
 .width-60 {
@@ -135,6 +137,14 @@ ul {
 
 }
 
+.soft-red {
+    background-color: #F08180;
+}
+
+.soft-green {
+    background-color: #20B3AA;
+}
+
 /* fandom */
 .main-row-reverse {
     width: 60%;
@@ -153,10 +163,34 @@ ul {
     justify-content: center;
     height: 600px;
     width: 100%;
+    border: 1px solid black;
 }
 
 /* footer */
-.black.bkg {
+.black-bkg {
     background-color: #23272A;
     padding: 20px;
+}
+
+.footer-row {
+    width: 60%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dim4 {
+     display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 20%;
+    border: 1px solid white;
+}
+
+.width-30 {
+    width: 30%;
 }

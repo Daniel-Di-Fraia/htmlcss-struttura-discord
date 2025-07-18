@@ -52,3 +52,29 @@ ul {
     align-items: center;
     padding-left: 10px;
 }
+
+/* sezione download main */
+#download {
+    background-color: blue;
+    padding: 20px;
+}
+
+.download-section {
+    background-color: #EF82ED;
+    width: 45%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.dim1 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+}

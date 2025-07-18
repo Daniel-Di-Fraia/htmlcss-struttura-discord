@@ -1,0 +1,54 @@
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* regole header */
+ header {
+    background-color: #ADD8E7;
+    padding: 20px;
+} 
+
+.nav-main {
+    background-color: orange;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oggetti {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 125px;
+}
+
+#login {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#logo {
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}

@@ -63,7 +63,7 @@ ul {
 .download-section {
     background-color: #EF82ED;
     width: 45%;
-    height: 300px;
+    height: 350px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@ ul {
 .dim2 {
     display: flex;
     justify-content: center;
-    height: 370px;
+    height: 440px;
     width: 100%;
     border: 1px solid black;
 }
@@ -170,7 +170,7 @@ ul {
 .dim3 {
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 750px;
     width: 100%;
     border: 1px solid black;
 }
@@ -194,7 +194,7 @@ ul {
 .dim4 {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 535px;
     width: 20%;
     border: 1px solid white;
 }

@@ -55,7 +55,7 @@ ul {
 
 /* sezione download main */
 #download {
-    background-color: blue;
+    background-color: #00018B;
     padding: 20px;
 }
 
@@ -78,3 +78,63 @@ ul {
     width: 80%;
     height: 30px;
 }
+
+/* main principale */
+.skyblue {
+    background-color: #1E90FF;
+}
+
+.pink {
+    background-color: #FFC0CA;
+    width: 60%;
+}
+/* place to talk */
+.white-bkg {
+    background-color: white;
+    padding: 20px;
+}
+
+.gray-bkg {
+    background-color: #D3D3D3;
+    padding: 20px;
+}
+
+.main-row {
+    width: 60%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dim2 {
+    display: flex;
+    justify-content: center;
+    height: 370px;
+    width: 100%;
+    
+}
+
+.skyblue {
+    background-color: #1E90FF;
+}
+
+.pink {
+    background-color: #FFC0CA;
+    width: 60%;
+}
+
+/* fandom */
+.main-row-reverse {
+    width: 60%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
